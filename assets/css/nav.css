@@ -1,0 +1,29 @@
+/* Navigation */
+
+#miniflex {
+    float: left;
+	font-size:medium;
+	font-weight:bold;
+    margin: 0;
+    padding: 0 10px;
+    width: 940px;
+}
+#miniflex li {
+    display: inline;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#miniflex a:link, #miniflex a:visited {
+    color: #999999;
+    float: left;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#miniflex a.active:link, #miniflex a.active:visited, #miniflex a:hover {
+    color: #333333;
+}

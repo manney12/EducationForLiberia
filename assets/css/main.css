@@ -1,0 +1,97 @@
+body{
+	background-color: #FAFAFA;
+	border-top: 10px solid #e1bd33;
+}
+.container{
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 0px 1px 5px 1px #ccc;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-nav>li{
+	padding-top:10px;
+}
+
+.navbar-brand, .navbar-nav>li>a{
+	color:#343434;
+	font-weight: 600;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: #fff;
+	color: #e1bd33;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: #fff;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	margin-top: 10px;
+}
+
+#main-content{
+	border-top: 10px solid #e1bd33;
+	padding: 25px;
+}
+
+#video{
+	min-height: 400px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#featured{
+	background: url("http://www.educationforliberia.org/assets/img/featured/featured_img.jpg");
+	padding: 4.5em 2em;
+	margin-bottom: -1em;
+	background-size: cover;
+	min-height: 500px;
+}
+
+#featured-text{
+	float: right;
+}
+
+#events{
+	border-bottom: 1px solid #ccc;
+}
+
+#mission{
+	text-align: center;
+	padding: 30px;
+	background-color: #343434;
+	color: #fff;
+}
+
+#sponsors{
+	border-bottom: 1px solid #ccc;
+	background-color: #F5F5F5;
+}
+
+#footer{
+	background-color: #343434;
+	color: #fff;
+	padding: 40px;
+}
+
+#footer h4{
+	text-align: left;
+}
+
+#footer li, a{
+	list-style-type: none;
+	color: #e1bd33;
+	text-align: left;
+}
+
+#mission h4 {
+	font-weight: 300;
+	font-size: 1.4em;
+	line-height: 1.45;
+}
